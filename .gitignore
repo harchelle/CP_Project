@@ -1,0 +1,35 @@
+# Lensless 3DGS datasets
+lensless3d_data/scenes
+lensless3d_data/sample_submission.csv
+lensless3d_data/submission.csv
+lensless3d_data/submission3.csv
+
+# Experiment outputs
+runs/
+
+# Gaussian Splatting generated outputs
+gaussian-splatting
+
+# submission file
+submission.csv
+
+# unnecessary zip
+lensless-3-d-novel-view-synthesis-from-raw-measurements.zip
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Model checkpoints
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+
+# Generated data
+*.npz
+
+# Credentials
+.env
+.env.*
+!.env.example
